@@ -7,9 +7,9 @@
   </picture>
 </a>
 
-# FDSS Linux Shell Collection
+# FDSS Script
 
-统一项目自动化脚本
+FDSS 脚本 使用文档
 
 [![访问量](https://profile-counter.glitch.me/FantasticDreamStarrySky-FDSS-Linux-Shell-Collection/count.svg)](https://github.com/FantasticDreamStarrySky/FDSS-Linux-Shell-Collection)
 
