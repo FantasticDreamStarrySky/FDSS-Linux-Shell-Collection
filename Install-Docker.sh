@@ -22,17 +22,14 @@ abort() {
 mktmp() {
   TMP="$DIR/tmp" && rm -rf "$TMP" && mkdir -p "$TMP" || abort "缓存目录创建失败";
 }
-if type docker;
-  then
-    echo "$G- Docker 已安装$O"
-elif type pacman &>/dev/null;
-  then
-    echo "$Y- 正在使用 pacman 安装 Docker$O"
-	  pacman -Syu --noconfirm --needed --overwrite "*" docker || abort "Docker 安装失败"
-elif type apt &>/dev/null;
-  then
-	  echo "$Y- 正在使用 apt 安装 Docker$O"
-	  apt update && apt install -y docker.io || abort "Docker 安装失败"
+if type docker;then
+  echo "$G- Docker 已安装$O"
+elif type pacman &>/dev/null;then
+  echo "$Y- 正在使用 pacman 安装 Docker$O"
+	pacman -Syu --noconfirm --needed --overwrite "*" docker || abort "Docker 安装失败"
+elif type apt &>/dev/null;then
+	echo "$Y- 正在使用 apt 安装 Docker$O"
+	apt update && apt install -y docker.io || abort "Docker 安装失败"
 else
 	echo "$Y- 正在使用 官方脚本 安装 Docker$O"
 	DOWNLOAD_URL="https://mirrors.ustc.edu.cn/docker-ce" bash <(curl -L get.docker.com) || abort "官方脚本 执行失败，请自行安装 Docker 后重试：https://docker.com"
