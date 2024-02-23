@@ -37,3 +37,4 @@ else
 	echo "$Y- 正在使用 官方脚本 安装 Docker$O"
 	DOWNLOAD_URL="https://mirrors.ustc.edu.cn/docker-ce" bash <(curl -L get.docker.com) || abort "官方脚本 执行失败，请自行安装 Docker 后重试：https://docker.com"
 fi
+docker info || { systemctl enable --now docker || service docker start && docker info; } && echo "$G- Docker 已启动$O" || abort "Docker 启动失败"
