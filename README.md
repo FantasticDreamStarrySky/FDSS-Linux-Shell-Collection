@@ -11,21 +11,24 @@
 
 FDSS 脚本 使用文档
 
-[![](http://antzuhl.cn:4000/get/@littleTreeme)](https://github.com/FantasticDreamStarrySky/FDSS-Script)
+[![访问量](https://profile-counter.glitch.me/FantasticDreamStarrySky-FDSS-Script/count.svg)](https://github.com/FantasticDreamStarrySky/FDSS-Script)
 
 </div>
 
-
-
 ## 容器安装
+
 ### GitHub
+
 ```sh
 bash <(curl -L github.com/FantasticDreamStarrySky/FDSS-Script/raw/main/Install-Docker.sh)
 ```
+
 ### Gitee
+
 ```sh
 bash <(curl -L gitee.com/FantasticDreamStarrySky/FDSS-Script/raw/main/Install-Docker.sh)
 ```
+
 <div align="center">
 <img width="120%" src="https://repobeats.axiom.co/api/embed/2b246afb1c0f696fb4a9da20da6e62e6942ba1fe.svg" />
 </div>
