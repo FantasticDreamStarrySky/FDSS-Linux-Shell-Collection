@@ -12,7 +12,7 @@
 FDSS 脚本 使用文档
 </div>
 
-![](http://antzuhl.cn:4000/get/@FantasticDreamStarrySky)
+[![](http://antzuhl.cn:4000/get/@littleTreeme)](https://github.com/FantasticDreamStarrySky/FDSS-Script)
 
 
 
