@@ -11,7 +11,7 @@
 
 FDSS 脚本 使用文档
 
-[![访问量](https://profile-counter.glitch.me/FantasticDreamStarrySky-FDSS-Script/count.svg)](https://github.com/FantasticDreamStarrySky/FDSS-Script)
+![](http://antzuhl.cn:4000/get/@FantasticDreamStarrySky)
 
 </div>
 
